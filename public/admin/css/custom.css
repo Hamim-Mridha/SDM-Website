@@ -1,0 +1,78 @@
+.table{
+    width: 100% !important;
+}
+
+.card-body{
+    background-color:rgb(233 230 226);
+}
+
+.white-content .card:not(.card-white) .card-header {
+    color: #222a42;
+    background-color: rgb(255, 255, 255)
+}
+
+.white-content .card:not(.card-white) .card-header .card-title, .white-content .card:not(.card-white) .card-body .card-title {
+    color: #1d253b;
+    font-weight: 500;
+}
+
+.btn-success {
+    background: #007df2;
+    /* background-image: -webkit-linear-gradient(to bottom left, #00f2c3, #0098f0, #00f2c3);
+    background-image: -o-linear-gradient(to bottom left, #00f2c3, #0098f0, #00f2c3);
+    background-image: -moz-linear-gradient(to bottom left, #00f2c3, #0098f0, #00f2c3);
+    background-image: linear-gradient(to bottom left, #00f2c3, #0098f0, #00f2c3); */
+    background-size: 210% 210%;
+    background-position: top right;
+    background-color: #007df2;
+    transition: all 0.15s ease;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.badge-success {
+    color: #ffffff;
+    background-color: #2d8d2d;
+}
+
+.badge-warning {
+    color: #ffffff;
+    background-color: #bd2a32;
+}
+
+.dataTables_wrapper .table-striped tbody tr:nth-of-type(odd) {
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+table.dataTable tbody tr {
+    font-weight: 500;
+    background-color: transparent;
+}
+
+/* =========================Drop Down ========================= */
+
+.dropdown-menu .dropdown-item, .bootstrap-select .dropdown-menu.inner li a {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: black;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    margin-top: 5px;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
+/* ========================= View Details ====================== */
+.modal-content .modal-header .modal-title {
+    font-size: 28px;
+    color: #222a42;
+}
+
+.modal .modal-header .close {
+    color: #b42121;
+    text-shadow: none;
+}
